@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movies | CineFlix</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <i class="fas fa-film"></i>
+            Cine<span>Flix</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="movies.html" class="active">Movies</a>
+            <a href="genres.html">Genres</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
+
+            <a href="#" class="profile-btn">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- Movies Hero -->
+
+    <section class="movies-hero">
+
+        <div class="movies-hero-content">
+
+            <span class="movies-label">EXPLORE THE COLLECTION</span>
+
+            <h1>Discover Your Next <span>Favourite Movie</span></h1>
+
+            <p>
+                From blockbuster hits to unforgettable classics,
+                explore movies for every mood and every moment.
+            </p>
+
+            <div class="movies-breadcrumb">
+                <a href="index.html">Home</a>
+                <i class="fas fa-angle-right"></i>
+                <span>Movies</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Movie Catalogue -->
+
+    <section class="catalogue-section">
+
+        <div class="catalogue-heading">
+
+            <div>
+                <span class="section-subtitle">EXPLORE OUR COLLECTION</span>
+                <h2>All <span>Movies</span></h2>
+                <p>Find something amazing to watch.</p>
+            </div>
+
+            <div class="catalogue-count">
+                <i class="fas fa-film"></i>
+                <span>Featured Collection</span>
+            </div>
+
+        </div>
+
+
+        <!-- Genre Filters -->
+
+        <div class="movie-filters">
+
+            <a href="movies.html" class="filter-active">All Movies</a>
+            <a href="genres.html#action">Action</a>
+            <a href="genres.html#comedy">Comedy</a>
+            <a href="genres.html#drama">Drama</a>
+            <a href="genres.html#scifi">Sci-Fi</a>
+            <a href="genres.html#horror">Horror</a>
+            <a href="genres.html#romance">Romance</a>
+
+        </div>
+
+
+        <!-- Movie Grid -->
+
+        <div class="catalogue-grid">
+
+
+            <!-- Movie 1 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                        alt="Oppenheimer">
+
+                    <span class="catalogue-badge">TRENDING</span>
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Oppenheimer</h3>
+                    <div class="catalogue-meta">
+                        <span>2023</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.3</span>
+                    </div>
+                    <span class="catalogue-genre">Drama / History</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 2 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg"
+                        alt="Dune Part Two">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Dune: Part Two</h3>
+                    <div class="catalogue-meta">
+                        <span>2024</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.5</span>
+                    </div>
+                    <span class="catalogue-genre">Sci-Fi / Adventure</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 3 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                        alt="John Wick Chapter 4">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>John Wick: Chapter 4</h3>
+                    <div class="catalogue-meta">
+                        <span>2023</span>
+                        <span class="rating"><i class="fas fa-star"></i> 7.6</span>
+                    </div>
+                    <span class="catalogue-genre">Action / Thriller</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 4 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+                        alt="Spider-Man Across the Spider-Verse">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Spider-Man: Across the Spider-Verse</h3>
+                    <div class="catalogue-meta">
+                        <span>2023</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.6</span>
+                    </div>
+                    <span class="catalogue-genre">Animation / Action</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 5 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+                        alt="Inception">
+
+                    <span class="catalogue-badge">TOP RATED</span>
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Inception</h3>
+                    <div class="catalogue-meta">
+                        <span>2010</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.8</span>
+                    </div>
+                    <span class="catalogue-genre">Sci-Fi / Action</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 6 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+                        alt="Avengers Infinity War">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Avengers: Infinity War</h3>
+                    <div class="catalogue-meta">
+                        <span>2018</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.4</span>
+                    </div>
+                    <span class="catalogue-genre">Action / Sci-Fi</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 7 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+                        alt="Joker">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Joker</h3>
+                    <div class="catalogue-meta">
+                        <span>2019</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.4</span>
+                    </div>
+                    <span class="catalogue-genre">Crime / Drama</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 8 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg"
+                        alt="Avatar The Way of Water">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Avatar: The Way of Water</h3>
+                    <div class="catalogue-meta">
+                        <span>2022</span>
+                        <span class="rating"><i class="fas fa-star"></i> 7.5</span>
+                    </div>
+                    <span class="catalogue-genre">Fantasy / Adventure</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 9 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
+                        alt="Top Gun Maverick">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Top Gun: Maverick</h3>
+                    <div class="catalogue-meta">
+                        <span>2022</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.2</span>
+                    </div>
+                    <span class="catalogue-genre">Action / Drama</span>
+                </div>
+
+            </a>
+
+
+            <!-- Movie 10 -->
+
+            <a href="movie-details.html" class="catalogue-card">
+
+                <div class="catalogue-poster">
+                    <img src="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+                        alt="Spider-Man No Way Home">
+
+                    <div class="catalogue-overlay">
+                        <span><i class="fas fa-play"></i></span>
+                    </div>
+                </div>
+
+                <div class="catalogue-info">
+                    <h3>Spider-Man: No Way Home</h3>
+                    <div class="catalogue-meta">
+                        <span>2021</span>
+                        <span class="rating"><i class="fas fa-star"></i> 8.2</span>
+                    </div>
+                    <span class="catalogue-genre">Action / Adventure</span>
+                </div>
+
+            </a>
+
+        </div>
+
+
+        <!-- Pagination -->
+
+        <div class="catalogue-pagination">
+
+            <a href="#" class="pagination-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <span>...</span>
+            <a href="#"><i class="fas fa-angle-right"></i></a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo footer-logo">
+                    <i class="fas fa-film"></i>
+                    Cine<span>Flix</span>
+                </a>
+
+                <p>
+                    Your destination for discovering movies,
+                    exploring genres and finding your next
+                    favourite film.
+                </p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="genres.html">Genres</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Popular Genres</h3>
+                <a href="genres.html#action">Action</a>
+                <a href="genres.html#comedy">Comedy</a>
+                <a href="genres.html#horror">Horror</a>
+                <a href="genres.html#scifi">Sci-Fi</a>
+                <a href="genres.html#romance">Romance</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> support@cineflix.com</p>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fas fa-location-dot"></i> Mumbai, India</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 CineFlix. All Rights Reserved.</p>
+            <p>Made for movie lovers.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
